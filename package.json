@@ -1,0 +1,24 @@
+{
+  "name": "task-api",
+  "version": "1.0.0",
+  "description": "A beginner-friendly RESTful API built with Node.js and Express.js to manage a to-do list",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "start:cluster": "USE_CLUSTER=true node app.js",
+    "dev": "node --watch app.js"
+  },
+  "keywords": [
+    "express",
+    "nodejs",
+    "rest-api",
+    "crud",
+    "swagger"
+  ],
+  "author": "Alex",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
